@@ -6,6 +6,7 @@ def get_domain(mapping: dict) -> set:
     # === TODO ===
     # Your code here
     return set(mapping.keys())
+    pass
     # === END TODO ===
 
 
@@ -13,6 +14,7 @@ def get_range(mapping: dict) -> set:
     """Return the range — the set of outputs actually mapped to."""
     # === TODO ===
     # Your code here
+    return set(mapping.values())
     pass
     # === END TODO ===
 

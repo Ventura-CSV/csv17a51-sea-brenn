@@ -54,3 +54,4 @@ def is_bijective(mapping: dict, target: set) -> bool:
     return is_injective(mapping) and is_surjective(mapping, target)
     pass
     # === END TODO ===
+    
